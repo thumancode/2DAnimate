@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+  body { background: #87ceeb; margin: 0; height: 100vh; }
+  .ball {
+    width: 60px; height: 60px;
+    background: tomato; border-radius: 50%;
+    margin: 0 auto;
+    animation: bounce 1s ease-in infinite alternate;
+  }
+  @keyframes bounce {
+    from { transform: translateY(0); }
+    to   { transform: translateY(300px); }
+  }
+</style>
+</head>
+<body>
+  <div class="ball"></div>
+</body>
+</html>
